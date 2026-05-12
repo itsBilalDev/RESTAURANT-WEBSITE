@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet2.css">
+</head>
+<body>
+    <h2 class="menu-heading">OUR MENU</h2>
+    <input type="text" placeholder="Search" class="menu-search">
+    <section class="menu">
+        <div class="menu-card">
+            <img src="pasta.jpeg" alt="">
+            <h3> PASTA</h3>
+            <p>Rs : 600</p>
+            <button onclick="addtocart('pasta',600)">Add to cart</button>
+        </div>
+         <div class="menu-card">
+            <img src="burger.jpg" alt="">
+            <h3>BURGER</h3>
+            <p>Rs : 500</p>
+            <button onclick="addtocart('burger',500)">Add to cart</button>
+        </div>
+         <div class="menu-card">
+            <img src="pizza.webp" alt="">
+            <h3>PIZZA</h3>
+            <p>Rs : 1600</p>
+            <button onclick="addtocart('pizza',1600)">Add to cart</button>
+        </div>
+         <div class="menu-card">
+            <img src="SHUWARMA.avif" alt="">
+            <h3>SHUMARMA</h3>
+            <p>Rs : 200</p>
+            <button onclick="addtocart('shuwarma',200)">Add to cart</button>
+        </div>
+      
+         <div class="menu-card">
+            <img src="sandwich1.jpg" alt="">
+            <h3>SANDWICH</h3>
+            <p>Rs : 300</p>
+            <button onclick="addtocart('sandwich',300)">Add to cart</button>
+        </div>
+         <div class="menu-card">
+            <img src="fries.jpg" alt="">
+            <h3>FRIES</h3>
+            <p>Rs : 600</p>
+            <button onclick="addtocart('fries',600)">Add to cart</button>
+        </div>
+         <div class="menu-card">
+            <img src="wings.jfif" alt="">
+            <h3>HOT WINGS</h3>
+            <p>Rs : 300</p>
+            <button onclick="addtocart('hot wings',300)">Add to cart</button>
+        </div>
+         <div class="menu-card">
+            <img src="pratha roll.jpg" alt="">
+            <h3>PRATHA ROLL</h3>
+            <p>Rs : 200</p>
+            <button onclick="addtocart('pratha roll',200)">Add to cart</button>
+        </div>
+
+    </section>
+
+
+    <section class="cart">
+        <h2>ADD TO CART</h2>
+        <ul class="cartitems"></ul>
+        <h3> TOTAL : <span class="total">0</span> Rs : </h3>
+    </section>
+    <script src="javascript2.js"></script>
+</body>
+</html>
